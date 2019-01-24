@@ -7,6 +7,7 @@ class App extends Component {
         return (
             <div>
                 <span>{this.props.appState.timer}</span>
+                <button onClick={this.props.appState.resetTimer}>Reset</button>
             </div>
         )
     }
